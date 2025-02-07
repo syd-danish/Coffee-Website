@@ -1,0 +1,101 @@
+body{
+    margin: 0 auto;
+    width:950px;
+    background: beige;
+
+}
+
+
+h1,h2,h3{
+    color:darkred;
+}
+ul{
+list-style-image: url("coffeegif.gif");
+
+}
+a{
+    color:darkred;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type:none;
+    padding:0;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    display: block;
+    background: burlywood;
+    width:100px;
+    margin:0;
+    padding: 5px 40px;
+}
+
+nav a:hover {
+    color: yellow;
+    background:brown;
+
+
+
+}
+
+a:hover {
+    color:orangered;
+}
+
+aside{
+    text-align: center;
+    float:right;
+    background: burlywood;
+    font-weight: bold;
+    padding:10px;
+}
+.fleft{
+    float: left;
+    padding:10px;
+    margin: 15px;
+    font-weight: bold;
+
+}
+.fright{
+    float:right;
+    padding:10px;
+    margin:15px;
+    font-weight: bold;
+}
+
+header{
+    background-image: url("coffeebeans.png");
+    height: 80px;
+    width: 1080px;
+    margin-bottom: 30px;
+
+}
+
+footer nav li {
+    width:155px;
+}
+footer nav li a{
+    color: darkgray;
+    background:beige;
+    text-align: center;
+    padding: 5px 20px
+}
+
+footer nav li a:hover{
+    color:white;
+    background: black;
+}
+.forheader{
+    color:white;
+    opacity: 0.85;
+}
+
+table{
+    border-spacing: 0;
+
+}
